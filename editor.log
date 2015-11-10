@@ -1,0 +1,406 @@
+BackupNameAttachment=" Build(20) 25 Sep 15 (20 34 58)"  -- used by backup system
+Log Started at 09/25/15 20:34:58
+Built on Sep 18 2015 01:19:55
+Running 64 bit Windows version
+Executable: D:\main\CRYENGINE\bin\win_x64\Editor.exe
+FileVersion: 3.8.4.20
+ProductVersion: 3.8.4.20
+Using Microsoft (tm) C++ Standard Library implementation
+EaaS Build
+Added MOD directory <engine> to CryPak
+
+Total number of logical processors: 2
+Number of available logical processors: 2
+Total number of system cores: 2
+Number of cores available to process: 2
+ 
+Processor 0:
+  CPU: AMD AMD Athlon(tm) 64 X2 Dual Core Processor 4000+
+  Family: 15, Model: 11, Stepping: 1
+  FPU: On-Chip
+  3DNow!: present
+  MMX: not present
+  SSE: present
+  SSE2: present
+  SSE3: present
+  Serial number not present or disabled
+ 
+Processor 1:
+  CPU: AMD AMD Athlon(tm) 64 X2 Dual Core Processor 4000+
+  Family: 15, Model: 11, Stepping: 1
+  FPU: On-Chip
+  3DNow!: present
+  MMX: not present
+  SSE: present
+  SSE2: present
+  SSE3: present
+  Serial number not present or disabled
+ 
+[HMD][Oculus] Cvars initialised
+Loading Config file system.cfg (system.cfg)
+<20:34:58> OnSysSpecChange(4)
+<20:34:58> [Warning] Config file VeryHighSpec.cfg not found!
+<20:34:58> Loading Config file editor.cfg (editor.cfg)
+<20:34:58> GameDir: GameSDK
+<20:34:58> Loading Config file GameSDK/game.cfg (gamesdk\game.cfg)
+<20:34:59> creating CVarGroups from directory 'Config/CVarGroups' ...
+<20:34:59> Loading Config file Config/CVarGroups/sys_spec_full.cfg (gamesdk\config\cvargroups\sys_spec_full.cfg)
+<20:34:59> Loading Config file Config/CVarGroups/sys_spec_gameeffects.cfg (gamesdk\config\cvargroups\sys_spec_gameeffects.cfg)
+<20:34:59> Loading Config file Config/CVarGroups/sys_spec_light.cfg (gamesdk\config\cvargroups\sys_spec_light.cfg)
+<20:34:59> Loading Config file Config/CVarGroups/sys_spec_objectdetail.cfg (gamesdk\config\cvargroups\sys_spec_objectdetail.cfg)
+<20:34:59> Loading Config file Config/CVarGroups/sys_spec_particles.cfg (gamesdk\config\cvargroups\sys_spec_particles.cfg)
+<20:34:59> Loading Config file Config/CVarGroups/sys_spec_physics.cfg (gamesdk\config\cvargroups\sys_spec_physics.cfg)
+<20:34:59> Loading Config file Config/CVarGroups/sys_spec_postprocessing.cfg (gamesdk\config\cvargroups\sys_spec_postprocessing.cfg)
+<20:34:59> Loading Config file Config/CVarGroups/sys_spec_quality.cfg (gamesdk\config\cvargroups\sys_spec_quality.cfg)
+<20:34:59> Loading Config file Config/CVarGroups/sys_spec_shading.cfg (gamesdk\config\cvargroups\sys_spec_shading.cfg)
+<20:34:59> Loading Config file Config/CVarGroups/sys_spec_shadows.cfg (gamesdk\config\cvargroups\sys_spec_shadows.cfg)
+<20:34:59> Loading Config file Config/CVarGroups/sys_spec_sound.cfg (gamesdk\config\cvargroups\sys_spec_sound.cfg)
+<20:34:59> Loading Config file Config/CVarGroups/sys_spec_texture.cfg (gamesdk\config\cvargroups\sys_spec_texture.cfg)
+<20:34:59> Loading Config file Config/CVarGroups/sys_spec_textureresolution.cfg (gamesdk\config\cvargroups\sys_spec_textureresolution.cfg)
+<20:34:59> Loading Config file Config/CVarGroups/sys_spec_volumetriceffects.cfg (gamesdk\config\cvargroups\sys_spec_volumetriceffects.cfg)
+<20:34:59> Loading Config file Config/CVarGroups/sys_spec_water.cfg (gamesdk\config\cvargroups\sys_spec_water.cfg)
+<20:34:59> Windows 8.1 64 bit (build 6.3.9600)
+<20:34:59> User name: "dimxt_000"
+<20:34:59> System language: Russian
+<20:34:59> Windows Directory: "C:\Windows"
+<20:34:59> Local time is 20:34:59 09/25/15, system running for 1321 minutes
+<20:34:59> 2047MB physical memory installed, 1538MB available, 134217727MB virtual memory installed, 24 percent of memory in use
+<20:34:59> PageFile usage: 127MB, Working Set: 63MB, Peak PageFile usage: 128MB,
+<20:34:59> Current display mode is 1680x1050x32, (Unknown graphics card)
+<20:34:59> IBM enhanced (101/102-key) keyboard and 8+ button mouse installed
+<20:34:59> --------------------------------------------------------------------------------
+<20:34:59> [Warning] Config file %USER%/game.cfg not found!
+<20:34:59> Loading Config file system.cfg (system.cfg)
+<20:34:59> OnSysSpecChange(4)
+<20:34:59> Loading Config file VeryHighSpec.cfg (gamesdk\config\veryhighspec.cfg)
+<20:34:59> Loading Config file editor.cfg (editor.cfg)
+<20:34:59> [Warning] Config file user.cfg not found!
+<20:34:59> Stream Engine Initialization
+<20:34:59> GameName: CRYENGINE SDK
+<20:34:59> BuildTime: Sep 18 2015 01:19:55
+<20:34:59> Physics initialization
+<20:34:59> Initializing CryPhysics...
+<20:34:59> Initializing CryPhysics done, MemUsage=832Kb
+<20:34:59> <Audio>: AudioSystem initialization
+<20:34:59> Initializing CrySoundSystem...
+<20:34:59> Initializing CryAudioImplWwise...
+<20:34:59> <Audio> <1.134>: CryAudioImplWwise loaded
+<20:34:59> Initializing CryAudioImplWwise done, MemUsage=3932Kb
+<20:35:00> Initializing CrySoundSystem done, MemUsage=37268Kb
+<20:35:00> Renderer initialization
+<20:35:00> Logging video adapters:
+<20:35:00> - Microsoft Basic Render Driver (vendor = 0x1414, device = 0x008c)
+<20:35:00>   - Adapter index: 0
+<20:35:00>   - Dedicated video memory: 0 MB
+<20:35:00>   - Feature level: DX11 (SM 5.0)
+<20:35:00>   - Displays connected: yes
+<20:35:00>   - Suitable rendering device: yes
+<20:35:00> Initializing CryRenderD3D11...
+<20:35:01> CRenderer sizeof(Vec2f16)=4 sizeof(Vec3f16)=8
+<20:35:01> Initializing CryRenderD3D11 done, MemUsage=2604Kb
+<20:35:01> Initializing Direct3D and creating game window:
+<20:35:01> D3DX_SDK_VERSION = <UNDEFINED>
+<20:35:01> Direct3D driver is creating...
+<20:35:01> Crytek Direct3D driver version 2.00 (Sep 18 2015 <01:20:28>)
+<20:35:01> Creating window called 'CRYENGINE SDK [EaaS]' (1280x720)
+<20:35:01> D3D Adapter: Description: Microsoft Basic Render Driver
+<20:35:01> D3D Adapter: Driver version (UMD): 6.03.9600.16505
+<20:35:01> D3D Adapter: VendorId = 0x1414
+<20:35:01> D3D Adapter: DeviceId = 0x008C
+<20:35:01> D3D Adapter: SubSysId = 0x00000000
+<20:35:01> D3D Adapter: Revision = 0
+<20:35:01> Active GPUs: 1
+<20:35:01> Using pixel texture formats:
+<20:35:01>   R8G8B8A8S, mips (autogen), blend, RT (multi-sampled), gather
+<20:35:01>   R8G8B8A8, mips (autogen), sRGB, blend, RT (multi-sampled), gather
+<20:35:01>   A8, mips (autogen), blend, RT (multi-sampled), gather
+<20:35:01>   R8, mips (autogen), blend, RT (multi-sampled), gather
+<20:35:01>   R8S, mips (autogen), blend, RT (multi-sampled), gather
+<20:35:01>   R16, mips (autogen), blend, RT (multi-sampled), gather (comparable)
+<20:35:01>   R16F, mips (autogen), blend, RT (multi-sampled), gather
+<20:35:01>   R32F, mips (autogen), blend, RT (multi-sampled), gather (comparable)
+<20:35:01>   R8G8, mips (autogen), blend, RT (multi-sampled), gather
+<20:35:01>   R8G8S, mips (autogen), blend, RT (multi-sampled), gather
+<20:35:01>   R16G16, mips (autogen), blend, RT (multi-sampled), gather
+<20:35:01>   R16G16S, mips (autogen), blend, RT (multi-sampled), gather
+<20:35:01>   R16G16F, mips (autogen), blend, RT (multi-sampled), gather
+<20:35:01>   R11G11B10F, mips (autogen), blend, RT (multi-sampled), gather
+<20:35:01>   R10G10B10A2, mips (autogen), blend, RT (multi-sampled), gather
+<20:35:01>   R16G16B16A16, mips (autogen), blend, RT (multi-sampled), gather
+<20:35:01>   R16G16B16A16S, mips (autogen), blend, RT (multi-sampled), gather
+<20:35:01>   R16G16B16A16F, mips (autogen), blend, RT (multi-sampled), gather
+<20:35:01>   R32G32B32A32F, mips (autogen), blend, RT (multi-sampled), gather
+<20:35:01>   BC1, mips, sRGB, gather
+<20:35:01>   BC2, mips, sRGB, gather
+<20:35:01>   BC3, mips, sRGB, gather
+<20:35:01>   BC4, mips, gather
+<20:35:01>   BC4S, mips, gather
+<20:35:01>   BC5, mips, gather
+<20:35:01>   BC5S, mips, gather
+<20:35:01>   BC6UH, mips, gather
+<20:35:01>   BC6SH, mips, gather
+<20:35:01>   BC7, mips, sRGB, gather
+<20:35:01>   R9G9B9E5, mips, gather
+<20:35:01>   R32FX8T, mips, gather (comparable)
+<20:35:01>   R32T, mips
+<20:35:01>   R24G8T, mips
+<20:35:01>   R16T, mips
+<20:35:01>   B5G6R5, mips (autogen), blend, RT (multi-sampled), gather
+<20:35:01>   B5G5R5, mips (autogen), blend, RT (multi-sampled), gather
+<20:35:01>   B8G8R8A8, mips (autogen), sRGB, blend, RT (multi-sampled), gather
+<20:35:01>   B8G8R8X8, mips (autogen), sRGB, blend, RT (multi-sampled), gather
+<20:35:01>  Renderer HDR_Scalar: R32F
+<20:35:01>  ****** D3D11 CryRender Stats ******
+<20:35:01>  Driver description: Microsoft Basic Render Driver
+<20:35:01>  Feature level: DirectX 11.0
+<20:35:01>  Full stats: 
+<20:35:01>  Rasterizer: Hardware
+<20:35:01>  Current Resolution: 1280x720x32 Windowed
+<20:35:01>  HDR Rendering: FP16
+<20:35:01>  MRT HDR Rendering: Disabled
+<20:35:01>  Occlusion queries: Supported
+<20:35:01>  Geometry instancing: Supported
+<20:35:01>  Vertex textures: Supported
+<20:35:01>  NormalMaps compression : Supported
+<20:35:01>  Gamma control: Hardware
+<20:35:01>  Vertex Shaders version 4.0
+<20:35:01>  Pixel Shaders version 4.0
+<20:35:01>  Used GeomInstancingThreshold is 7
+<20:35:01>  Shader model usage: 'SM.5.0'
+<20:35:01>  *****************************************
+<20:35:01>  
+<20:35:01> Init Shaders
+<20:35:01> Flushing pended shaders...
+<20:35:01> Finished flushing pended shaders...
+<20:35:01> Flushing pended shaders...
+<20:35:01> Finished flushing pended shaders...
+<20:35:01>  General shader quality: VeryHigh
+<20:35:01>  Metal shader quality: VeryHigh
+<20:35:01>  Glass shader quality: VeryHigh
+<20:35:01>  Vegetation shader quality: VeryHigh
+<20:35:01>  Ice shader quality: VeryHigh
+<20:35:01>  Terrain shader quality: VeryHigh
+<20:35:01>  Shadow shader quality: VeryHigh
+<20:35:01>  Water shader quality: High
+<20:35:01>  FX shader quality: VeryHigh
+<20:35:01>  PostProcess shader quality: VeryHigh
+<20:35:01>  HDR shader quality: VeryHigh
+<20:35:01>  Sky shader quality: VeryHigh
+<20:35:01> Render quality: VeryHigh
+<20:35:01> Allocate render buffer for particles (16384 verts, 49152 tris)...
+<20:35:01> Init textures management (0 Mb of video memory is available)...
+<20:35:01>   Enabling of textures streaming...
+<20:35:01>   Using 512 Mb of textures pool for streaming...
+<20:35:01>   Video textures: Atlas clouds max size: 24 Mb
+<20:35:01>   Video textures: Atlas sprites max size: 32 Mb
+<20:35:01>   Video textures: Dynamic managed max size: 80 Mb
+<20:35:01>   Reloading all textures...
+<20:35:01>   Finished reloading textures...
+<20:35:01>   Finished initializing textures streaming...
+<20:35:02> Initialized hardware mouse (game is allowed to confine mouse to window)
+<20:35:02> Using Scaleform GFx 3.3.94
+<20:35:02>   Using dynamic pool
+<20:35:02> Font initialization
+<20:35:02> Initializing CryFont...
+<20:35:02> Using FreeType 2.5.5
+<20:35:02> Initializing CryFont done, MemUsage=156Kb
+<20:35:03> *** Init system render resources ***
+<20:35:03> Allocating shadow map cache 4214 x 4214: 33.87 MB
+<20:35:03> Network initialization
+<20:35:03> Initializing CryNetwork...
+<20:35:03> [net] Socket IO management: External [LobbyIDAddr], Internal [iocp]
+<20:35:03> network hostname: XTREME7-PC
+<20:35:03>   ip:31.41.104.13
+<20:35:03> [Network Version]: PROFILE DEVELOPMENT BUILD
+<20:35:03> Initializing CryNetwork done, MemUsage=1916Kb
+<20:35:03> Online initialization
+<20:35:03> Initializing CryOnline...
+<20:35:03> DLL Failed to load, error code: 7E
+<20:35:03> Lobby initialization
+<20:35:03> Initializing CryLobby...
+<20:35:03> Initializing CryLobby done, MemUsage=320Kb
+<20:35:03> MovieSystem initialization
+<20:35:03> Initializing CryMovie...
+<20:35:03> Initializing CryMovie done, MemUsage=356Kb
+<20:35:03> Console initialization
+<20:35:03> Time initialization
+<20:35:03> Input initialization
+<20:35:03> Initializing CryInput...
+<20:35:03> Initializing DirectInput
+<20:35:03> Initializing Keyboard
+<20:35:03> Initializing mouse
+<20:35:03> Initializing CryInput done, MemUsage=948Kb
+<20:35:03> AI initialization
+<20:35:03> Initializing CryAISystem...
+<20:35:04> Initializing CryAISystem done, MemUsage=1136Kb
+<20:35:04> Initializing Animation System
+<20:35:04> Initializing CryAnimation...
+<20:35:04> Initializing CryAnimation done, MemUsage=1584Kb
+<20:35:04> Initializing 3D Engine
+<20:35:04> Initializing Cry3DEngine...
+<20:35:04> Sky light: Optical lookup tables loaded off disc.
+<20:35:04> Initializing Cry3DEngine done, MemUsage=1512Kb
+<20:35:04> Script System Initialization
+<20:35:04> Initializing CryScriptSystem...
+<20:35:04> Initializing CryScriptSystem done, MemUsage=1020Kb
+<20:35:04> Entity system initialization
+<20:35:04> Initializing CryEntitySystem...
+<20:35:04> Initializing CryEntitySystem done, MemUsage=2300Kb
+<20:35:04> LiveCreate initialization
+<20:35:04> LiveCreateHost not created, using NULL implementation.
+<20:35:04> Initializing AI System
+<20:35:04> AI: [AISYSTEM] Initialization started.
+<20:35:05> AI: Loaded 54 AI Behaviors in 0.11s...
+<20:35:05> Registering CentralInterestManager with EntitySystem
+<20:35:05> AI: [AISYSTEM] Initialization finished.
+<20:35:05> Initializing additional systems
+<20:35:05> Dynamic Response System initialization
+<20:35:05> No Dynamic Response System was loaded from a module, will use the NULL implementation.
+<20:35:05> failed to find CVar: r_showmt
+<20:35:05> OnSysSpecChange(4)
+<20:35:05> Loading Config file VeryHighSpec.cfg (gamesdk\config\veryhighspec.cfg)
+<20:35:05> Loading Config file editor.cfg (editor.cfg)
+<20:35:05> Current Language: Russian 
+<20:35:05> Windows 8.1 6.3 (C:\Windows)
+<20:35:05> Local time is 20:35:05 09/25/15, system running for 1321 minutes
+<20:35:05> 2047MB phys. memory installed, 2363MB paging available
+<20:35:05> Current display mode is 1680x1050x32, (Unknown graphics card)
+<20:35:05> IBM enhanced (101/102-key) keyboard and 8+ button mouse installed
+<20:35:05> --------------------------------------------------------------------------------
+<20:35:05> sys_dll_game = CryGameSDK.dll
+<20:35:05> sys_game_folder = GameSDK
+<20:35:05> sys_localization_folder = Localization
+<20:35:06> [Invite] SetInviteAcceptedState 0 to 0
+<20:35:06> [Invite] InvalidateInviteData
+<20:35:06> CGameLocalizationManager::LoadLocalizationData() is loading localization file=Libs/Localization/localization.xml
+<20:35:07> Finished loading item XML definitions from 'scripts/entities/items/XML'!
+<20:35:07> Finished loading ammo XML definitions from 'scripts/entities/items/XML'!
+<20:35:07> [PlayerProfiles] Login of user 'dimxt_000': First Time Login - Successfully created default profile 'default'
+<20:35:07> [PlayerProfiles] Login of user 'dimxt_000' successful.
+<20:35:07> CGame: Loading singleplayer difficulty config 'difficulty/easy.cfg'
+<20:35:07> Loading Config file difficulty/easy.cfg (gamesdk\difficulty\easy.cfg)
+<20:35:07> [GameProfiles]: Successfully activated profile 'default' for user 'dimxt_000'
+<20:35:07> username dimxt_000 signedIn 1 userIndex -1
+<20:35:07> ActivateProfile profileName default
+<20:35:07> CGame: Loading singleplayer difficulty config 'difficulty/easy.cfg'
+<20:35:07> Loading Config file difficulty/easy.cfg (gamesdk\difficulty\easy.cfg)
+<20:35:07> CPlayerProgression::Constructor
+<20:35:07> CPlayerProgression::Init() Done
+<20:35:07> PersistantStats profile version mismatch, got 0, expected 3, so ignoring
+<20:35:07> CGame::LoadPatchLocalizationData() is loading localization file=localization_english.xml
+<20:35:07> CGame::InitGameType() multiplayer=false, fromInit=true
+<20:35:07> hostName = 'XTREME7-PC'
+<20:35:07> SetGlobalState 1->2 'INIT'->'RUNNING' 9.1 seconds
+<20:35:07> Loading singleplayer configuration...
+<20:35:07> Loading Config file singleplayer.cfg (gamesdk\config\singleplayer.cfg)
+<20:35:07> Changing "ai_CompatibilityMode" cvar from '' to 'crysis2' (now got 1 cvar to revert when switching game type)
+<20:35:07> Changing "ai_BurstWhileMovingDestinationRange" cvar from '2' to '9999.0' (now got 2 cvars to revert when switching game type)
+<20:35:07> Changing "g_telemetryConfig" cvar from 'none' to 'SP' (now got 3 cvars to revert when switching game type)
+<20:35:07> Changing "net_inactivitytimeout" cvar from '30' to '3600' (now got 4 cvars to revert when switching game type)
+<20:35:07> Changing "net_inactivitytimeoutDevmode" cvar from '30' to '3600' (now got 5 cvars to revert when switching game type)
+<20:35:07> Changing "pl_movement.nonCombat_heavy_weapon_speed_scale" cvar from '0.75' to '1.0' (now got 6 cvars to revert when switching game type)
+<20:35:07> No need to change "sv_gamerules" to 'SinglePlayer' as that's also its current value
+<20:35:07> No need to change "ca_StreamCHR" to '1' as that's also its current value
+<20:35:07> Finished loading singleplayer configuration, used 192/5120 bytes storing old cvar values
+<20:35:07> [Lobby] Terminate service 1 error 4
+<20:35:07> CGame: Singleplayer game type initialised
+<20:35:07> CGame: Loading singleplayer difficulty config 'difficulty/easy.cfg'
+<20:35:07> Loading Config file difficulty/easy.cfg (gamesdk\difficulty\easy.cfg)
+<20:35:07> Registering TPS Extensions...
+<20:35:07> <Lua> PipeManager: Creating goal pipes
+<20:35:07> --- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesShared.xml...
+<20:35:07> --- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesCoordination.xml...
+<20:35:07> --- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesHuman.xml...
+<20:35:07> --- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesHeli.xml...
+<20:35:07> <Lua> PipeManager: Finished creating goal pipes!
+<20:35:07> [FEATURETESTER] (No instance) Creating feature tester instance
+<20:35:07> Ending game context...
+<20:35:08> <Lua> Loading AIAlertness.lua
+<20:35:08> Initializing default materials...
+<20:35:09> [MFX] Loading FXLib 'breakables' ...
+<20:35:09> [MFX] Loading FXLib 'collisions' ...
+<20:35:09> [MFX] Loading FXLib 'foley' ...
+<20:35:09> [MFX] Loading FXLib 'foley_grunt' ...
+<20:35:09> [MFX] Loading FXLib 'foley_player' ...
+<20:35:09> [MFX] Loading FXLib 'footstep_grunt' ...
+<20:35:09> [MFX] Loading FXLib 'footstep_player' ...
+<20:35:09> [MFX] Loading FXLib 'footsteps' ...
+<20:35:09> [MFX] Loading FXLib 'grenade' ...
+<20:35:09> [MFX] Loading FXLib 'melee' ...
+<20:35:09> [MFX] Loading FXLib 'player_fx' ...
+<20:35:09> [MFX] Loading FXLib 'projectiles' ...
+<20:35:09> [MFX] Loading FXLib 'tornado' ...
+<20:35:09> [MFX] Loading FXLib 'vegetation' ...
+<20:35:09> [MFX] Loading FXLib 'vehicles' ...
+<20:35:09> UnitTesting Finished Tests: 55 Succeeded: 55, Failed: 0, Time: 93.79 ms
+<20:35:10> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
+<20:35:10> Loading Config file singleplayer.cfg (gamesdk\config\singleplayer.cfg)
+<20:35:10> Finished loading ammo XML definitions from 'scripts/entities/items/XML'!
+<20:35:11> AI: [AISYSTEM] Initializing AI Actions.
+<20:35:11> AI: [AISYSTEM] Initializing Smart Objects.
+<20:35:12> OnSysSpecChange(1)
+<20:35:12> Loading Config file LowSpec.cfg (gamesdk\config\lowspec.cfg)
+<20:35:12> Flushing pended shaders...
+<20:35:12> Finished flushing pended shaders...
+<20:35:12> Flushing pended shaders...
+<20:35:12> Finished flushing pended shaders...
+<20:35:12> Allocating shadow map cache 3162 x 3162: 19.07 MB
+<20:35:12> Loading Config file editor.cfg (editor.cfg)
+<20:35:12> Unloading all previous plugins
+<20:35:12> Loading plugins...
+<20:35:14> Successfully loaded plugin 'CryDesigner', version '1' (GUID: )
+<20:35:15> Successfully loaded plugin 'EditorPhysics', version '1' (GUID: (null))
+<20:35:15> Successfully loaded plugin 'AudioControlsEditor', version '1' (GUID: {DFA4AFF7-2C70-4B29-B736-GRH00040314})
+<20:35:15> Cannot query plugin DLL 'D:\main\CRYENGINE\bin\win_x64\EditorPlugins\EditorCryAudioImplSDLMixer.dll' factory pointer (is it a Sandbox plugin?)
+<20:35:15> Cannot query plugin DLL 'D:\main\CRYENGINE\bin\win_x64\EditorPlugins\EditorCryAudioImplWwise.dll' factory pointer (is it a Sandbox plugin?)
+<20:35:15> Successfully loaded plugin 'QtFbxImport', version '1' (GUID: {73A03A18-842C-4433-830E-49B6B42DB192})
+<20:35:15> FBX plugin: CreatePluginInstance
+<20:35:15> Successfully loaded plugin 'FBX Exporter', version '1' (GUID: {6CD02F95-362C-4ADF-8BAE-87C6342A8027})
+<20:35:15> Document created
+<20:35:15> [Warning] XML reader: Can't open file (Editor/EditorEventLog.xml)
+<20:35:16> Creating view...
+<20:35:17> [Warning] XML reader: Can't open file (d:\main\cryengine\user\sandbox\Macros.xml)
+<20:35:17> general.run_file_parameters 'addToSysPath.py' 'Editor/Scripts'
+<20:35:17> Returned: 
+<20:35:18> general.run_file_parameters 'addToSysPath.py' 'Tools/Editor/Scripts'
+<20:35:18> Returned: 
+<20:35:18> Started game resource files indexing...
+<20:35:18> Loading Localization File Localization\text_ui_ingame.xml
+<20:35:18> Loading Localization File Localization\text_ui_items.xml
+<20:35:18> Loading Localization File Localization\text_ui_levels.xml
+<20:35:18> Loading Localization File Localization\text_ui_menus.xml
+<20:35:18> Loading Localization File Localization\text_ui_warnings.xml
+<20:35:18> Loading Localization File Localization\ai_dialog_recording_list.xml
+<20:35:18> Loading Localization File Localization\dialog_recording_list.xml
+<20:35:39> Loading WIP features file: 'Editor\UI\WipFeatures.xml'...
+<20:35:39> Loaded 7 WIP features.
+<20:35:39> [CONSOLE] Executing console command 'exec autoexec.cfg'
+<20:35:39> Executing console batch file (try game,config,root): "autoexec.cfg" not found!
+<20:35:39> [CONSOLE] Executing console command 'exec editor.cfg'
+<20:35:39> Executing console batch file (try game,config,root): "editor.cfg" found in ./ ...
+<20:35:39> ed_MissingAssetResolver=0 [  ]
+<20:35:39> ca_UseIMG_CAF=0 [  ]
+<20:35:39> [CONSOLE] Executing console command 'exec user.cfg'
+<20:35:39> Executing console batch file (try game,config,root): "user.cfg" not found!
+<20:35:39> Adding for file change notifications: 'D:\main\CRYENGINE\gamesdk\'
+<20:35:39> Adding for file change notifications: 'D:\main\CRYENGINE\engine\'
+<20:35:39> Adding for file change notifications: 'D:\main\CRYENGINE\Editor\'
+<20:35:39> Task Completed: Update Local Animations
+<20:35:39> Remote console listening on: 4600
+<20:35:46> Freeing asset database CGA
+<20:35:46> Freeing asset database Characters
+<20:35:46> Freeing asset database Materials
+<20:35:46> Freeing asset database Models
+<20:35:46> Freeing asset database Sounds
+<20:35:46> Freeing asset database Textures
+<20:35:46> CSystem::Quit invoked from thread 252 (main is 252)
+<20:35:46> BaseInput - Shutting down all force feedback
+<20:35:46> ActionGame - Shutting down all force feedback
+<20:35:46> [Lobby] Terminate service 0 error 4
+<20:35:46> [Lobby] Terminate service 1 error 4
+<20:35:46> Ending game context...
+<20:35:46> Destroying CActionGame instance 0000007AF45EDD30 (level="")
+<20:35:47> [FEATURETESTER] Unloading all feature test data
+<20:35:47> Flushing pended shaders...
+<20:35:47> Finished flushing pended shaders...
+<20:35:47> System:Quit
