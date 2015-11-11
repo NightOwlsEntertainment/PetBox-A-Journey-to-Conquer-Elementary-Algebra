@@ -1,6 +1,5 @@
-bin/*
 Tools/*
-engine/*
 _CommonRedist/*
 *.pak
 PetBox/*.pak
+!localization/*.pak

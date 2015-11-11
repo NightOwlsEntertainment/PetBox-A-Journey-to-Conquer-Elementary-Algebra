@@ -1,0 +1,35 @@
+////////////////////////////////////////////////////////////////////////////
+//
+//  Crytek Engine Source File.
+//  Shader extension
+//  Copyright (C), Crytek Studios, 2001-2004.
+// -------------------------------------------------------------------------
+//  File name:   TerrainLayer.ext
+//  Version:     v1.00
+//  Created:     16/2/2004 by Andrey Honich.
+//  Compilers:   
+//  Description: TerrainLayer shader extension used by the editor
+//               for automatic shader generation (based on "TerrainLayer" shader template)
+// -------------------------------------------------------------------------
+//  History:
+//
+////////////////////////////////////////////////////////////////////////////
+
+Version (1.00)
+
+Property
+{
+  Name = %BILINEAR_FP16
+  Mask = 0x1
+  DependencySet = $HW_BilinearFP16
+  DependencyReset = $HW_BilinearFP16
+  Hidden
+}
+Property
+{
+  Name = %SEPARATE_FP16
+  Mask = 0x2
+  DependencySet = $HW_SeparateFP16
+  DependencyReset = $HW_SeparateFP16
+  Hidden
+}

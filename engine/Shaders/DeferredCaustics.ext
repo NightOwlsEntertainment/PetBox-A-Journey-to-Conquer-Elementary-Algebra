@@ -1,0 +1,32 @@
+////////////////////////////////////////////////////////////////////////////
+//
+//  Crytek Engine Source File.
+//  Shader extension
+//  Copyright (C), Crytek Studios, 2001-2008.
+// -------------------------------------------------------------------------
+//  File name:   DeferredCausticsPass.ext
+//  Version:     v1.00
+//  Created:     05/03/2008 by Tiago Sousa
+// -------------------------------------------------------------------------
+//  History:
+//
+////////////////////////////////////////////////////////////////////////////
+
+Version (1.00)
+
+Property
+{
+  Name = %BILINEAR_FP16
+  Mask = 0x1
+  DependencySet = $HW_BilinearFP16
+  DependencyReset = $HW_BilinearFP16
+  Hidden
+}
+Property
+{
+  Name = %SEPARATE_FP16
+  Mask = 0x2
+  DependencySet = $HW_SeparateFP16
+  DependencyReset = $HW_SeparateFP16
+  Hidden
+}
